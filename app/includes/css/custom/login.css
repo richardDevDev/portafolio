@@ -1,0 +1,29 @@
+body{
+	/*background-image: url(../../../assets/img/sys/background/login-bg.jpg);*/
+	background-size: 100% 100vh;
+  background-color: #f0e9e0!important;
+}
+.login-box{
+  color: #000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 10rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.login-box .image{
+  margin-bottom: 1vh;
+}
+
+.login-box input{
+    height: 40px;
+    
+}
+
+.footer{
+	padding-bottom: 5vh;
+	color: #fff;
+	text-align: center;
+}

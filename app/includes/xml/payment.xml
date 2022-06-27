@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<P>
+    <business>
+        <id_company>[CNY.ID]</id_company>
+        <id_branch>[CNY.BRANCH]</id_branch>
+        <user>[CNY.USER]</user>
+        <pwd>[CNY.PWD]</pwd>
+    </business>
+    <url>
+        <reference>[URL.REFERENCE]</reference>
+        <amount>[URL.AMOUNT]</amount>
+        <moneda>[URL.CURRENCY]</moneda>
+        <canal>[URL.CHANNEL]</canal>
+        <omitir_notif_default>[URL.NOTI_DEF]</omitir_notif_default>
+        <promociones>[URL.PROMOTIONS]</promociones>
+        <st_correo>[URL.REQ_MAIL]</st_correo>
+        <fh_vigencia>[URL.EFFECTIVE_DATE]</fh_vigencia>
+        <st_cr>[URL.ENROLLMENT_RULES]</st_cr>
+        <mail_cliente>[CTE.MAIL]</mail_cliente>
+        [D3DS_DATA]
+        <datos_adicionales>
+            <data id="1" display="false">
+                <label>[CTE.PRINCIPAL]</label>
+                <value>[CTE.ID]</value>
+            </data>
+            [PRODUCTS.INFO]
+        </datos_adicionales>
+    </url>
+</P>

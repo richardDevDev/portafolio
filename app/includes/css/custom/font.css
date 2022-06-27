@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/intervogue/Intervogue Soft Light.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/intervogue/Intervogue Soft Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/intervogue/Intervogue Soft Regular.otf") format("opentype");
+}

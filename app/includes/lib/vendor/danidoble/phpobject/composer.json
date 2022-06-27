@@ -1,0 +1,35 @@
+{
+  "name": "danidoble/phpobject",
+  "description": "just an object",
+  "type": "plugin",
+  "homepage": "https://github.com/danidoble/phpobject",
+  "license": "MIT",
+  "suggest": {
+  },
+  "keywords": [
+    "danidoble",
+    "object"
+  ],
+  "authors": [
+    {
+      "name": "danidoble",
+      "email": "dani.doble.d@hotmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.3|^8.0",
+    "ext-json": "*",
+    "symfony/error-handler": "^5.3"
+  },
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "Danidoble\\": "Src\\"
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  },
+  "version": "v0.0.5"
+}

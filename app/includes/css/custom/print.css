@@ -1,0 +1,160 @@
+@media print {
+
+	body {
+		margin-top:2cm !important;
+		width: 40%;
+		height: 200px;
+		margin-bottom: 2cm !important;
+	}
+
+	object{
+		margin-top: 2cm;
+		text-align: center;
+		width: 80%;
+	}
+
+	.barcode{
+		font-size: 25pt;
+	}
+	.ticket-logo{
+		margin-top: 1cm !important;
+		margin-bottom: 1cm !important;
+	}
+	.ticket-header{
+		margin-top: 50px !important;
+		margin-bottom: 50px !important;
+		font-weight: bold;
+		font-size: 35pt;
+	}
+
+	.ticket-table{
+		margin-top: 20px;
+		font-size: 45pt;
+	}
+	.ticket-datos{
+		margin-top: 50px;
+		font-size: 35pt;
+	}
+	.ticket-footer{
+		margin-top: 2cm;
+		font-size: 35pt;
+		margin-bottom: 1cm;
+	}
+
+	.col-print-1 {
+	  -ms-flex: 0 0 8.333333%;
+	  flex: 0 0 8.333333%;
+	  max-width: 8.333333%;
+	}
+
+	.col-print-2 {
+	  -ms-flex: 0 0 16.666667%;
+	  flex: 0 0 16.666667%;
+	  max-width: 16.666667%;
+	}
+
+	.col-print-3 {
+	  -ms-flex: 0 0 25%;
+	  flex: 0 0 25%;
+	  max-width: 25%;
+	}
+
+	.col-print-4 {
+	  -ms-flex: 0 0 33.333333%;
+	  flex: 0 0 33.333333%;
+	  max-width: 33.333333%;
+	}
+
+	.col-print-5 {
+	  -ms-flex: 0 0 41.666667%;
+	  flex: 0 0 41.666667%;
+	  max-width: 41.666667%;
+	}
+
+	.col-print-6 {
+	  -ms-flex: 0 0 50%;
+	  flex: 0 0 50%;
+	  max-width: 50%;
+	}
+
+	.col-print-7 {
+	  -ms-flex: 0 0 58.333333%;
+	  flex: 0 0 58.333333%;
+	  max-width: 58.333333%;
+	}
+
+	.col-print-8 {
+	  -ms-flex: 0 0 66.666667%;
+	  flex: 0 0 66.666667%;
+	  max-width: 66.666667%;
+	}
+
+	.col-print-9 {
+	  -ms-flex: 0 0 75%;
+	  flex: 0 0 75%;
+	  max-width: 75%;
+	}
+
+	.col-print-10 {
+	  -ms-flex: 0 0 83.333333%;
+	  flex: 0 0 83.333333%;
+	  max-width: 83.333333%;
+	}
+
+	.col-print-11 {
+	  -ms-flex: 0 0 91.666667%;
+	  flex: 0 0 91.666667%;
+	  max-width: 91.666667%;
+	}
+
+	.col-print-12 {
+	  -ms-flex: 0 0 100%;
+	  flex: 0 0 100%;
+	  max-width: 100%;
+	}
+
+	.offset-print-1 {
+	  margin-left: 8.333333%;
+	}
+
+	.offset-print-2 {
+	  margin-left: 16.666667%;
+	}
+
+	.offset-print-3 {
+	  margin-left: 25%;
+	}
+
+	.offset-print-4 {
+	  margin-left: 33.333333%;
+	}
+
+	.offset-print-5 {
+	  margin-left: 41.666667%;
+	}
+
+	.offset-print-6 {
+	  margin-left: 50%;
+	}
+
+	.offset-print-7 {
+	  margin-left: 58.333333%;
+	}
+
+	.offset-print-8 {
+	  margin-left: 66.666667%;
+	}
+
+	.offset-print-9 {
+	  margin-left: 75%;
+	}
+
+	.offset-print-10 {
+	  margin-left: 83.333333%;
+	}
+
+	.offset-print-11 {
+	  margin-left: 91.666667%;
+	}
+
+}

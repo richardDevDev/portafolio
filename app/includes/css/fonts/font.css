@@ -1,0 +1,134 @@
+/**
+* vagleft
+* Fuente que se tenia predeterminada
+*/
+@font-face {
+  font-family: 'vagleft';
+  font-display: swap;
+  src:  url('fonts/VAGRoundedLtNormal.ttf');
+}
+
+/**
+* Intervogue Soft
+* Fuente predeterminada Alysh
+*/
+
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftLight.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftRegular.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftBold.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftUltra.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: oblique;
+  font-weight: 300;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftLightOblique.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: oblique;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftBoldOblique.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: oblique;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftRegularOblique.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: oblique;
+  font-weight: 900;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftUltraOblique.otf") format("opentype");
+}
+
+/**
+* Intervogue soft alt
+* Fuente predeterminada 2 Alysh 
+*/
+@font-face {
+  font-family: 'Intervogue Soft Alt';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftAltLight.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Intervogue Soft Alt';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftAltBold.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Intervogue Soft Alt';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftAltRegular.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftAltUltra.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: oblique;
+  font-weight: 300;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftAltLightOblique.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: oblique;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftAltBoldOblique.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: oblique;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftAltRegularOblique.otf") format("opentype");
+}
+@font-face {
+  font-family: 'Intervogue Soft';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("fonts/intervogue/IntervogueSoftAltUltraOblique.otf") format("opentype");
+}
