@@ -1,30 +1,4 @@
-.img__logo {
-    width: 70px;
-    margin-left: 30px;
-}
-
-.btn {
-    border-radius: 20px;
-}
-
-.container {
-    border: 2px solid #000;
-    ;
-}
-
 body {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
-    background-blend-mode: multiply, multiply;  
-}
-
-.gray{
-    color: #5b5959; 
-}
-.bg-light {
-    background: transparent;
-}  
-.img__title{
-    width: 300px;
-    margin: auto;
-    border-radius: 20px;
+    background: linear-gradient(to bottom, #312e2e 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, #464343 0%, #312e2e 120%) #989898;
+    background-blend-mode: multiply, multiply;
 }
