@@ -1,4 +1,4 @@
 body {
-    background: linear-gradient(to bottom, #312e2e 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, #464343 0%, #312e2e 120%) #989898;
-    background-blend-mode: multiply, multiply;
+    background-image: #fff;
+    color: #fff;    
 }
