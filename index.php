@@ -16,15 +16,17 @@ include_once "app/autoloader.php";
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="nav justify-content-end" id="navbarText">
-                <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+                <ul class="nav nav-pills  me-auto mb-3 mb-lg-0">
+                    <select class="nav-item link-light border-0 mr-3 text-black rounded-pill p-2 select" name="" id="">
+                        <option value="Es">&#x1F1F2;&#x1F1FD;
+                            Español</option>
+                        <option value="En">🇺🇸 English</option>
+                    </select>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link link-light mr-3" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-outline-primary fs-5">Say Hello</button>
+                        <button type="button" class="btn btn-outline-light fs-5 rounded-pill border-3">Say Hello</button>
                     </li>
                 </ul>
             </div>
@@ -46,7 +48,7 @@ include_once "app/autoloader.php";
             </div>
 
             <div class="row  text-center mt-5 col-8 offset-4">
-                <img class="" src="https://img2.freepng.es/20190615/lco/kisspng-web-design-computer-programming-web-development-po-web-design-and-development-company-best-website-de-5d0500f7aa5bd1.3057117015606090156978.jpg" alt="">
+                <img class="" src="app/assets/img/img lang.png" alt="">
             </div>
 
         </div>
@@ -70,6 +72,9 @@ include_once "app/autoloader.php";
         </div>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
@@ -92,17 +97,27 @@ include_once "app/autoloader.php";
     }
 
     p {
+        color: #fff;
+    }
+
+    option {
+        background: transparent;
         color: #000;
     }
 
-    .btn {
-        border-radius: 20px;
-    }
-
-    .container2 {
+    body {
         border: 0px solid #000;
         background-image: linear-gradient(113.3deg, rgba(217, 9, 27, 1) 6.9%, rgba(22, 68, 150, 1) 75%);
         color: #fff;
+    }
+
+    .container2 {
+        background: #fff;
+        color: #000;
+    }
+
+    select {
+        background: transparent;
     }
 
     h1 {
@@ -111,7 +126,7 @@ include_once "app/autoloader.php";
         text-align: center;
         -o-text-overflow: ellipsis;
         text-overflow: ellipsis;
-        color: #000;
+        color: #fff;
 
     }
 
@@ -133,16 +148,11 @@ include_once "app/autoloader.php";
         transform-style: preserve-3d;
     }
 
-    .link.active {
+    .link .active {
         color: #000;
     }
 
-    .btn-outline-light {
-        color: #2c6bf7;
-        background-color: transparent;
-        background-image: none;
-        border: 3px solid #2c6bf7;
-    }
+
 
     .navbar-light .navbar-nav .nav-link {
         color: #2c6bf7;
@@ -155,14 +165,14 @@ include_once "app/autoloader.php";
     }
 
     .line-1 {
-            position: relative;
-            top: 50%;
-            margin: 0 auto;
-            border-right: 2px solid transparent;
-            font-size: 180%;
-            text-align: center;
-            white-space: nowrap;
-            overflow: hidden;
-            transform: translateY(-50%);
-        }
+        position: relative;
+        top: 50%;
+        margin: 0 auto;
+        border-right: 2px solid transparent;
+        font-size: 180%;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        transform: translateY(-50%);
+    }
 </style>
